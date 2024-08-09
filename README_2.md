@@ -31,7 +31,7 @@ Theme25 Dataset can be download from the link: [Theme25](https://drive.google.co
 
 **3. Train the TEG.**
 ```
-python main.py --data_path /path/to/Theme25
+python main.py --data_path /path/to/Theme25 --shot 1 --seed 1
 ```
 - After trianing, you could obtain the log file in './log/' and checkpoint file in './checkpoint/'
 
