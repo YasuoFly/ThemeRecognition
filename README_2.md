@@ -19,15 +19,17 @@ Grouping images into different themes is a challenging task in photo book curati
 **1. Main Environments.** </br>
 The environment installation procedure can follow the steps below (python=3.10):</br>
 ```
+git clone https://github.com/YasuoFly/ThemeRecognition.git
+cd ThemeRecognition
 conda create -n teg python=3.10
 conda activate teg
 pip install -r requirements.txt
 ```
 
-**1. Datasets.** </br>
+**2. Datasets.** </br>
 Theme25 Dataset can be download from the link: [Theme25](https://drive.google.com/file/d/1B3CD4iv4PJEuiB16_stwfroz5TtH0W1F/view?usp=drive_link)
 
-**2. Train the TEG.**
+**3. Train the TEG.**
 ```
 python main.py --data_path /path/to/Theme25
 ```
