@@ -8,7 +8,7 @@ Jikai Wang<sup>1</sup>, Wanglong Lu<sup>2</sup>, Yu Wang<sup>1</sup>, Kaijie Shi
 <sup>2</sup>  Memorial University of Newfoundland, Department of Computer Science, St. John’s, Newfoundland, Canada
 
 
-Journal of Electronic Imaging ([https://doi.org/10.1117/1.JEI.33.1.013028]([https://arxiv.org/abs/2403.20035](https://www.spiedigitallibrary.org/journals/journal-of-electronic-imaging/volume-33/issue-1/013028/TEG--image-theme-recognition-using-text-embedding-guided-few/10.1117/1.JEI.33.1.013028.short)))
+Journal of Electronic Imaging ([https://doi.org/10.1117/1.JEI.33.1.013028](https://www.spiedigitallibrary.org/journals/journal-of-electronic-imaging/volume-33/issue-1/013028/TEG--image-theme-recognition-using-text-embedding-guided-few/10.1117/1.JEI.33.1.013028.short))
 
 
 </div>
