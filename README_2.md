@@ -33,6 +33,7 @@ Theme25 Dataset can be download from the link: [Theme25](https://drive.google.co
 ```
 python main.py --data_path /path/to/Theme25
 ```
+- After trianing, you could obtain the log file in './log/' and checkpoint file in './checkpoint/'
 
 ## Citation
 If you find this repository helpful, please consider citing: </br>
