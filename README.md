@@ -5,7 +5,7 @@
 </h1>
 <h3>TEG: image theme recognition using text-embedding-guided few-shot adaptation</h3>
 
-Jikai Wang, [Wanglong Lu](https://longlongaaago.github.io/), Yu Wang, Kaijie Shi, Xianta Jiang, Hanli Zhao\*
+Jikai Wang, [Wanglong Lu](https://longlongaaago.github.io/), Yu Wang, Kaijie Shi, [Xianta Jiang](http://www.cs.mun.ca/~xiantaj/), [Hanli Zhao](http://i3s.wzu.edu.cn/info/1104/1183.htm)\*
 
 Journal of Electronic Imaging ([https://doi.org/10.1117/1.JEI.33.1.013028](https://www.spiedigitallibrary.org/journals/journal-of-electronic-imaging/volume-33/issue-1/013028/TEG--image-theme-recognition-using-text-embedding-guided-few/10.1117/1.JEI.33.1.013028.short))
 
