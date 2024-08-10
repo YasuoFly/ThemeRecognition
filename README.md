@@ -1,111 +1,52 @@
+<div align="center">
+<h1>TEG </h1>
+<h3>TEG: image theme recognition using text-embedding-guided few-shot adaptation</h3>
+
+Jikai Wang<sup>1</sup>, Wanglong Lu<sup>2</sup>, Yu Wang<sup>1</sup>, Kaijie Shi<sup>2</sup>, Xianta Jiang<sup>2</sup>, Hanli Zhao<sup>1</sup>\*
+
+<sup>1</sup>  Wenzhou University, Key Laboratory of Intelligent Informatics for Safety and Emergency of Zhejiang Province, Wenzhou, China,
+<sup>2</sup>  Memorial University of Newfoundland, Department of Computer Science, St. John’s, Newfoundland, Canada
 
 
-# TEG: image theme recognition using text-embedding-guided few-shot adaptation
+Journal of Electronic Imaging ([https://doi.org/10.1117/1.JEI.33.1.013028](https://www.spiedigitallibrary.org/journals/journal-of-electronic-imaging/volume-33/issue-1/013028/TEG--image-theme-recognition-using-text-embedding-guided-few/10.1117/1.JEI.33.1.013028.short))
 
-TEG: image theme recognition using text-embedding-guided few-shot adaptation
 
-<!-- PROJECT LOGO -->
-<br />
+</div>
+
+## Abstract
+Grouping images into different themes is a challenging task in photo book curation. Unlike image object recognition, image theme recognition focuses on the understanding of the main subject or overall meaning conveyed by an image. However, it is challenging to achieve satisfactory performance using existing general image recognition methods. In this work, we aim to solve the image theme recognition task with few-shot training samples using pre-trained contrastive language-image models. A text-prompt-guided few-shot image adaptation framework is proposed, which incorporates a text-embedding-guided classifier and an auxiliary classification loss to exploit embedded visual and text features, stabilize the network training, and enhance recognition performance. We also present an annotated dataset Theme25 for studying image theme recognition. We conducted experiments on our Theme25 dataset as well as the publicly available CIFAR100 and ImageNet datasets to demonstrate the superiority of our method over the compared state-of-the-art methods.
 
 <p align="center">
-  <a href="https://github.com/shaojintian/Best_README_template/">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">"完美的"README模板</h3>
-  <p align="center">
-    一个"完美的"README模板去快速开始你的项目！
-    <br />
-    <a href="https://github.com/shaojintian/Best_README_template"><strong>探索本项目的文档 »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/shaojintian/Best_README_template">查看Demo</a>
-    ·
-    <a href="https://github.com/shaojintian/Best_README_template/issues">报告Bug</a>
-    ·
-    <a href="https://github.com/shaojintian/Best_README_template/issues">提出新特性</a>
-  </p>
-
+  <img src="assets/framework.png" width="800"/>
 </p>
 
-
- 本篇README.md面向开发者
- 
-## 目录
-
-- [上手指南](#上手指南)
-  - [开发前的配置要求](#开发前的配置要求)
-  - [安装步骤](#安装步骤)
-- [文件目录说明](#文件目录说明)
-- [开发的架构](#开发的架构)
-- [部署](#部署)
-- [使用到的框架](#使用到的框架)
-- [贡献者](#贡献者)
-  - [如何参与开源项目](#如何参与开源项目)
-- [版本控制](#版本控制)
-- [作者](#作者)
-- [鸣谢](#鸣谢)
-
-### 上手指南
-
-请将所有链接中的“shaojintian/Best_README_template”改为“your_github_name/your_repository”
-
-
-
-###### 开发前的配置要求
-
-1. xxxxx x.x.x
-2. xxxxx x.x.x
-
-###### **安装步骤**
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-
-```sh
-git clone https://github.com/shaojintian/Best_README_template.git
+**1. Main Environments.** </br>
+The environment installation procedure can follow the steps below (python=3.10):</br>
+```
+git clone https://github.com/YasuoFly/ThemeRecognition.git
+cd ThemeRecognition
+conda create -n teg python=3.10
+conda activate teg
+pip install -r requirements.txt
 ```
 
-### 文件目录说明
-eg:
+**2. Datasets.** </br>
+Theme25 Dataset can be download from the link: [Theme25](https://drive.google.com/file/d/1B3CD4iv4PJEuiB16_stwfroz5TtH0W1F/view?usp=drive_link)
 
+**3. Train the TEG.**
+```
+python main.py --data_path /path/to/Theme25 --shot 1 --seed 1
+```
+- After trianing, you could obtain the log file in './log/' and checkpoint file in './checkpoint/'
 
-
-### 开发的架构 
-
-请阅读[ARCHITECTURE.md](https://github.com/shaojintian/Best_README_template/blob/master/ARCHITECTURE.md) 查阅为该项目的架构。
-
-### 部署
-
-暂无
-
-### 使用到的框架
-
-- [xxxxxxx](https://getbootstrap.com)
-- [xxxxxxx](https://jquery.com)
-- [xxxxxxx](https://laravel.com)
-
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-
-### 版本控制
-
-该项目使用Git进行版本管理。您可以在repository参看当前可用版本。
-
-### 作者
-
-xxx@xxxx
-
-知乎:xxxx  &ensp; qq:xxxxxx    
-
- *您也可以在贡献者名单中参看所有参与该项目的开发者。*
-
-
-
+## Citation
+If you find this repository helpful, please consider citing: </br>
+```
+@article{wang2024teg,
+author = {Jikai Wang and Wanglong Lu and Yu Wang and Kaijie Shi and Xianta Jiang and Hanli Zhao},
+title = {{TEG: image theme recognition using text-embedding-guided few-shot adaptation}},
+journal = {Journal of Electronic Imaging},
+year = {2024},
+}
+```
 
