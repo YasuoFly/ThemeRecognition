@@ -50,7 +50,7 @@ python train.py --data_path /path/to/Theme25 --shot 1 --seed 1
 ```
 python test.py --load_pre_path /path/to/checkpoint
 ```
-The model was retrained from reorganized code, so it's understandable if the performance differs slightly.
+The code was reorganized, so the performance may differ slightly.
 
 ## Citation
 If you find this repository helpful, please consider citing: </br>
