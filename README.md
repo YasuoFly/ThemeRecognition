@@ -1,8 +1,6 @@
 <div align="center">
 <h1>
-<p>
   <img src="assets/TEG_logo.jpg" width="80"/>
-</p>
   TEG
 </h1>
 <h3>TEG: image theme recognition using text-embedding-guided few-shot adaptation</h3>
