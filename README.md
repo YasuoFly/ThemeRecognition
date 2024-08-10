@@ -65,5 +65,5 @@ year = {2024},
 ## Acknowledgements
 We really appreciate the awesome projects, as shown below. Please check them as well.
 Our method is based on [CLIP](https://github.com/openai/CLIP).
-Our dataset is based on [ClipCap](https://github.com/rmokady/CLIP_prefix_caption), [ImageNet](https://image-net.org/), and [CIFAR100](https://www.cs.toronto.edu/~kriz/cifar.html).
+Our dataset (Theme25) is based on [ClipCap](https://github.com/rmokady/CLIP_prefix_caption), [ImageNet](https://image-net.org/), and [CIFAR100](https://www.cs.toronto.edu/~kriz/cifar.html).
 
