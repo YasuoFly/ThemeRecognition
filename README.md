@@ -1,7 +1,7 @@
 <div align="center">
 <h1>
-<p align="center">
-  <img src="assets/TEG_logo.png" width="800"/>
+<p>
+  <img src="assets/TEG_logo.jpg" width="800"/>
 </p>
   TEG
 </h1>
