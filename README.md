@@ -31,7 +31,7 @@ pip install -r requirements.txt
 ```
 
 **2. Datasets.** </br>
-Theme25 Dataset can be download from the link: [Theme25](https://drive.google.com/file/d/1B3CD4iv4PJEuiB16_stwfroz5TtH0W1F/view?usp=drive_link)
+Theme25 Dataset can be downloaded from the link: [Theme25](https://drive.google.com/file/d/1B3CD4iv4PJEuiB16_stwfroz5TtH0W1F/view?usp=drive_link)
 
 <p align="center">
   <img src="assets/dataset_example.png" width="800"/>
@@ -41,7 +41,7 @@ Theme25 Dataset can be download from the link: [Theme25](https://drive.google.co
 ```
 python main.py --data_path /path/to/Theme25 --shot 1 --seed 1
 ```
-- After trianing, you could obtain the log file in './log/' and checkpoint file in './checkpoint/'
+- After training, you could obtain the log file in './log/' and the checkpoint file in './checkpoint/'
 
 ## Citation
 If you find this repository helpful, please consider citing: </br>
