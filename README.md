@@ -1,5 +1,10 @@
 <div align="center">
-<h1>TEG </h1>
+<h1>
+<p align="center">
+  <img src="assets/TEG_logo.png" width="800"/>
+</p>
+  TEG
+</h1>
 <h3>TEG: image theme recognition using text-embedding-guided few-shot adaptation</h3>
 
 Jikai Wang, [Wanglong Lu](https://longlongaaago.github.io/), Yu Wang, Kaijie Shi, Xianta Jiang, Hanli Zhao\*
@@ -39,9 +44,15 @@ Theme25 Dataset can be downloaded from the link: [Theme25](https://drive.google.
 
 **3. Train the TEG.**
 ```
-python main.py --data_path /path/to/Theme25 --shot 1 --seed 1
+python train.py --data_path /path/to/Theme25 --shot 1 --seed 1
 ```
 - After training, you could obtain the log file in './log/' and the checkpoint file in './checkpoint/'
+
+**4. Test the TEG.**
+```
+python test.py --load_pre_path /path/to/checkpoint
+```
+The model was retrained from reorganized code, so it's understandable if the performance differs slightly.
 
 ## Citation
 If you find this repository helpful, please consider citing: </br>
