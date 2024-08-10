@@ -21,7 +21,7 @@ Journal of Electronic Imaging ([https://doi.org/10.1117/1.JEI.33.1.013028](https
 ##### Project benefits
 - [x] We are the few-shot adaptation method for image recognition.
 - [x] Our codes can train using a batch size of 32 on a GPU with less than 8GB memory.
-- [x] Our model converges very fast, especially on few-shot datasets.
+- [x] Our model converges very fast, especially on few-shot datasets. It takes only around 20 minutes for few-shot datasets (e.g., 64-shot).  
 
 **1. Main Environments.** </br>
 The environment installation procedure can follow the steps below (python=3.10):</br>
