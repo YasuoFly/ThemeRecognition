@@ -33,6 +33,10 @@ pip install -r requirements.txt
 **2. Datasets.** </br>
 Theme25 Dataset can be download from the link: [Theme25](https://drive.google.com/file/d/1B3CD4iv4PJEuiB16_stwfroz5TtH0W1F/view?usp=drive_link)
 
+<p align="center">
+  <img src="assets/dataset_example.png" width="800"/>
+</p>
+
 **3. Train the TEG.**
 ```
 python main.py --data_path /path/to/Theme25 --shot 1 --seed 1
