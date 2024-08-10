@@ -64,7 +64,7 @@ year = {2024},
 ```
 ## Acknowledgements
 Closely related projects:
-[CLIP](https://github.com/openai/CLIP), and [ClipCap](https://github.com/rmokady/CLIP_prefix_caption)
+[CLIP](https://github.com/openai/CLIP), and [ClipCap](https://github.com/rmokady/CLIP_prefix_caption).
 
 Closely related dataset:
 [ImageNet](https://image-net.org/), and [CIFAR100](https://www.cs.toronto.edu/~kriz/cifar.html).
