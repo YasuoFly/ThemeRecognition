@@ -9,7 +9,7 @@ Journal of Electronic Imaging ([https://doi.org/10.1117/1.JEI.33.1.013028](https
 </div>
 
 ## Abstract
-<div style="text-align: justify"> Grouping images into different themes is a challenging task in photo book curation. Unlike image object recognition, image theme recognition focuses on the understanding of the main subject or overall meaning conveyed by an image. However, it is challenging to achieve satisfactory performance using existing general image recognition methods. In this work, we aim to solve the image theme recognition task with few-shot training samples using pre-trained contrastive language-image models. A text-prompt-guided few-shot image adaptation framework is proposed, which incorporates a text-embedding-guided classifier and an auxiliary classification loss to exploit embedded visual and text features, stabilize the network training, and enhance recognition performance. We also present an annotated dataset Theme25 for studying image theme recognition. We conducted experiments on our Theme25 dataset as well as the publicly available CIFAR100 and ImageNet datasets to demonstrate the superiority of our method over the compared state-of-the-art methods. </div>
+Grouping images into different themes is a challenging task in photo book curation. Unlike image object recognition, image theme recognition focuses on the understanding of the main subject or overall meaning conveyed by an image. However, it is challenging to achieve satisfactory performance using existing general image recognition methods. In this work, we aim to solve the image theme recognition task with few-shot training samples using pre-trained contrastive language-image models. A text-prompt-guided few-shot image adaptation framework is proposed, which incorporates a text-embedding-guided classifier and an auxiliary classification loss to exploit embedded visual and text features, stabilize the network training, and enhance recognition performance. We also present an annotated dataset Theme25 for studying image theme recognition. We conducted experiments on our Theme25 dataset as well as the publicly available CIFAR100 and ImageNet datasets to demonstrate the superiority of our method over the compared state-of-the-art methods.
 
 <p align="center">
   <img src="assets/framework.png" width="800"/>
@@ -48,4 +48,8 @@ journal = {Journal of Electronic Imaging},
 year = {2024},
 }
 ```
+## Acknowledgements
+Closely related projects:
+[FastGAN](https://github.com/odegeasslbc/FastGAN-pytorch),
+[ProjectedGAN](https://github.com/autonomousvision/projected-gan), and [Restormer](https://github.com/swz30/Restormer).
 
