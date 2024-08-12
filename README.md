@@ -39,7 +39,7 @@ Theme25 Dataset can be downloaded from the link: [Theme25](https://drive.google.
   <img src="assets/dataset_example.png" width="800"/>
 </p>
 
-For more detailed Theme25 dataset information, please refer to the documentation [Dataset information](DATA_README.md) 
+For more detailed Theme25 dataset information, please refer to the documentation [Dataset information](DATA_README.md).
 
 **3. Train the TEG.**
 ```
