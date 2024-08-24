@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ```
 
 **2. Datasets.** </br>
-Theme25 Dataset can be downloaded from the link: [Theme25](https://drive.google.com/file/d/1B3CD4iv4PJEuiB16_stwfroz5TtH0W1F/view?usp=drive_link)
+Theme25 Dataset can be downloaded from the link: [Theme25](https://drive.google.com/file/d/1-Xr4ww4VAxJl8qxFivIuRsFIdQQUwg5C/view?usp=drivesdk)
 
 <p align="center">
   <img src="assets/dataset_example.png" width="800"/>
