@@ -1,3 +1,5 @@
+
+
 <div align="center">
 <h1>
   <img src="assets/TEG_logo.jpg" width="100"/>
@@ -33,7 +35,7 @@ pip install -r requirements.txt
 ```
 
 **2. Datasets.** </br>
-Theme25 Dataset can be downloaded from the link: [Theme25](https://drive.google.com/file/d/1-Xr4ww4VAxJl8qxFivIuRsFIdQQUwg5C/view?usp=drivesdk)
+Theme25 Dataset can be downloaded from the link: [Theme25](https://drive.google.com/file/d/1-Xr4ww4VAxJl8qxFivIuRsFIdQQUwg5C/view?usp=drivesdk). It contains 25 theme categories.
 
 <p align="center">
   <img src="assets/dataset_example.png" width="800"/>
@@ -67,4 +69,3 @@ year = {2024},
 We really appreciate the awesome projects, as shown below. Please check them as well.
 Our method is based on [CLIP](https://github.com/openai/CLIP).
 Our dataset (Theme25) is based on [ClipCap](https://github.com/rmokady/CLIP_prefix_caption), [ImageNet](https://image-net.org/), and [CIFAR100](https://www.cs.toronto.edu/~kriz/cifar.html).
-
